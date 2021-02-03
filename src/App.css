@@ -1,38 +1,51 @@
-.App {
+* {
+  box-sizing: border-box;
+  background-color: #050061;
+}
+
+header {
+  margin: 0;
+  padding-top: 10px;
   text-align: center;
+  font-family: Lucida Console, Courier New, monospace;
+  font-size: 45pt;
+  font-weight: bold;
+  color: #050061;
+  letter-spacing: 2em;
+  background-color: #03e3fc;
+  position: absolute;
+    width:100%;
+    top:0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.ChatBar{
+  margin-left: 25%;
+  margin-right: 25%;
+  width:45%;
+    position: absolute;
+    top: 57%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.ChatBar Button{
+  background-color: #03e3fc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div.ChatLog p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: #050061;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #03e3fc;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 15px;
+  width:45%;
+    position: absolute;
+    top: 65%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.NewLine {
+  white-space: pre-wrap;
+  background-color: #ffffff;
 }
