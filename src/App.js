@@ -28,7 +28,7 @@ function App() {
       </div>
       <div className="ChatLog">
         <p>
-          <NewlineText text={'CasiiBot: Hiiiiiiiiiii :3!!\nYou: Hi\nCasiiBot: What do you wanna talk about?\nngf\non\ng\nfdio\ngod\nhg'} />
+          <NewlineText text={'CasiiBot: Hiiiiiiiiiii :3!!\nYou: Hi\nCasiiBot: What do you wanna talk about?'} />
         </p>
       </div>
     </div>
